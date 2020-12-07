@@ -73,7 +73,13 @@ body {
 
 }
 
-/* @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     footer{ display: none; }
 	h1.otsikko{ font-size: 40px; }
-    } */
+	.card2{ height: 200px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+	font-family: "Serif", Didot, Georgia;
+	font-size: 10px;
+    } 
+}
