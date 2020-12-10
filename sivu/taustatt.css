@@ -1,6 +1,11 @@
 body {
     background-color: white;
     color: black;
+	height: 100%;
+	
+}
+html {
+	height: 100%;
 	
 }
 .navbar li a {
@@ -10,13 +15,13 @@ body {
     color: red;
 
 }
+.navi {
+	background-color: #ffffff;
+}
  h1.otsikko {
 	font-family: "fantasy", Papyrus, Studz;
 	font-size: 70px;
  }
- /*p.title {
-	font-size: 20px;
- }*/
  p {
 	 font-size: 20px;
  }
@@ -37,7 +42,25 @@ body {
 	background-size: cover; 
 	
 }
+.tausta {
+	background-image: url("images/tausta.jpg");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	
+}
 
+.varit {
+	color: #ffffff;
+}
+.contabg {
+	background-color: #99CBFC;
+}
+.card-body {
+	background-color: #5A7ABD;
+}
+.card {
+	border: none;
+}
 .card1 {
     height: 200px;
 }
@@ -73,13 +96,24 @@ body {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     footer{ display: none; }
 	h1.otsikko{ font-size: 40px; }
 	.card2{ height: 200px;
     margin-bottom: 5px;
     margin-top: 0px;
 	font-family: "Serif", Didot, Georgia;
-	font-size: 10px;
-    } 
+	font-size: 10px; }
+
+    }
+@media screen and (max-width: 576px) {
+		 .first {
+        order: 1;
+    }
+    .second {
+        order: 2;
+    }
+    .third {
+        order: 3;
+    }
 }
